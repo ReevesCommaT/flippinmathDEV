@@ -7,17 +7,23 @@ body, html {
 }
 
 /* Create a Parallax Effect */
-.bgimg-1, .bgimg-2, .bgimg-3 {
+.bgimg-head, .bgimg-1, .bgimg-2, .bgimg-3 {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-/* First image (Logo. Full height) */
-.bgimg-1 {
+/* Header image (Logo. Full height) */
+.bgimg-head {
     background-image: url('Images/banner-1571861_1280.jpg');
     min-height: 100%;
+}
+
+/* First image (Portfolio) */
+.bgimg-1 {
+    background-image: url('Images/geometric-background-1514478073tqH.jpg');
+    min-height: 400px;
 }
 
 /* Second image (Portfolio) */
@@ -32,7 +38,11 @@ body, html {
     min-height: 400px;
 }
 #home{
-  font-family:'Walter Turncoat'
+  font-family:'Walter Turncoat', cursive;
+  text-decoration: smallcaps;
+}
+.text-smallfancy{
+font-family: 'Gaegu', cursive;
 }
 
 .w3-wide {letter-spacing: 10px;}
